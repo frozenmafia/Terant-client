@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e74c3c, #8e44ad);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo-icon {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+  }
+  
+  .logo-text {
+    display: inline-block;
+  }
+  
