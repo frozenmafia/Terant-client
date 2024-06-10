@@ -1,8 +1,10 @@
-import styles from '@/app/styles/Logo.module.css';
-import SensorDataPage from './components/SensorDataGraph/SensorDataPage';
+import MainPage from './components/MainPage/home';
 
 export default function Home() {
   return (
-    <SensorDataPage/>
+    <>
+    <MainPage/>
+    </>
+    // <SensorDataPage/>
   );
 }

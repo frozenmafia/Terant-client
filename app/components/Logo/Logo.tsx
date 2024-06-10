@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className={`${styles.logoContainer} flex items-center space-x-2`}>
       <svg
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="log.webp"
         viewBox="0 0 64 64"
         width="40px"
         height="40px"

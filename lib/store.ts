@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-
+import devicesReducer from "./feature/devices/devicesSlice";
 const placeholderReducer = (state = {}, action: { type: any; }) => {
   switch (action.type) {
     // You can handle specific actions here if needed
@@ -11,7 +11,7 @@ export const makeStore = () => {
   return configureStore({
     reducer: {
       // Use the placeholder reducer here
-      placeholder: placeholderReducer,
+      devices: devicesReducer,
     },
   });
 };

@@ -27,6 +27,7 @@ ChartJS.register(
   TimeScale,
 
 );
+import { TimeUnit } from 'chart.js';
 
 import React, { useEffect, useState } from 'react';
 import { Chart, Line } from 'react-chartjs-2';

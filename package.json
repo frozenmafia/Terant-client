@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "20": "^3.1.9",
     "@faker-js/faker": "^8.4.1",
     "@reduxjs/toolkit": "^2.2.5",
+    "axios": "^1.7.2",
     "chart.js": "^4.4.3",
     "chartjs-adapter-date-fns": "^3.0.0",
-    "chartjs-adapter-moment": "^1.0.1",
     "date-fns": "^3.6.0",
     "faker": "^6.6.6",
     "moment": "^2.30.1",
