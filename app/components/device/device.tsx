@@ -9,6 +9,7 @@ interface DeviceCompProps {
 
 const DeviceComp: React.FC<DeviceCompProps> = ({ device, showModules }) => {
     const [moduleId, setModuleId] = useState<number | null>(null); // State to store selected moduleId
+    
 
     const handleModuleClick = (id: number) => {
         console.log(id);

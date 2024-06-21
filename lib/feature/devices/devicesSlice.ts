@@ -62,7 +62,10 @@ export const devicesSlice = createSlice({
 
             })
             .addCase(fetchDeviceById.fulfilled,(state,action)=>{
-                state.current_device = action.payload
+                state.current_device = {
+                    ...action.payload,
+                    modules: action.payload.modules.slice().sort((a: { id: number; }, b: { id: number; }) => a.id - b.id)
+                };
             })
     }
 });
